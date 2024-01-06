@@ -109,7 +109,7 @@ addCart.addEventListener('click', function (){
 
         receipt.style.display = 'block';
         receiptWindow.style.top = '20%';
-        receiptWindow.style.left = '35%';
+        receiptWindow.style.left = '25%';
 
     setTimeout(() => {
         receipt.style.opacity = 1;
