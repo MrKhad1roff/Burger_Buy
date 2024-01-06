@@ -106,11 +106,10 @@ const addCart = document.querySelector('.addCart');
 
 
 addCart.addEventListener('click', function (){
-    receipt.style.display = 'block';
-    receiptWindow.style.top = '20%';
-    receiptWindow.style.left = '35%';
 
-
+        receipt.style.display = 'block';
+        receiptWindow.style.top = '20%';
+        receiptWindow.style.left = '35%';
 
     setTimeout(() => {
         receipt.style.opacity = 1;
